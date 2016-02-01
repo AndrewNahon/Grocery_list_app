@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="grocery.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="grocery.js"></script>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <main>
+     <h2>Add an Item</h2>
+     <form>
+      <fieldset>
+        <dl>
+          <dt><label for="name" >Item Name</label> </dt>
+          <dd><input type="text" name="name" id="name" /></dd>
+          <dt><label for="quantity" >Quantity</label> </dt>
+          <dd><input type="number" name="quantity" id="quantity" /></dd>
+        </dl>
+        <input type="submit" value="add" />
+      </fieldset>
+      <p id="error">Item name must not be blank</p>
+     </form>
+     <ul>
+      <li>3 bananas</li>
+     </ul>
+
+    </main>
+
+  </body>
+</html> 

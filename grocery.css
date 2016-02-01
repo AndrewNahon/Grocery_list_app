@@ -1,0 +1,47 @@
+body {
+  background: #cccccc;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  color: red;
+  background: #fff;
+  padding: 20px;
+  
+}
+p {
+  display: none;
+}
+h3 {
+  font-size: 35px;
+}
+
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  font-size: 25px;
+}
+
+input[type="submit"] {
+  background-color: #E86C6C;
+}
+
+li {
+  font-size: 24px;
+}
